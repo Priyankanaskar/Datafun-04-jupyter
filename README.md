@@ -134,21 +134,8 @@ df['Sepal Area'] = df['Sepal Length'] * df['sepal_width']
 
 # Step 7. Initial Visualizations
 Create a variety of chart types using seaborn and matplotlib to showcase different aspects of the data. There is a guided example in the resources section at the end of this document
-# This cell is Python
-import seaborn as sns
-
-# Load the penguins dataset from Seaborn
-penguins = sns.load_dataset("penguins")
-
-# Show a few lines from the start of the dataset
-penguins.head()
-# Create a scatter plot of penguin flipper length vs. body mass
-plt = sns.scatterplot(data=penguins, x="flipper_length_mm", y="body_mass_g", hue="species")
-
-# Set axis labels and chart title
-plt.set_xlabel("Flipper Length (mm)")
-plt.set_ylabel("Body Mass (g)")
-plt.set_title("Penguin Flipper Length vs. Body Mass")
+sns.pairplot(df, hue='species')
+plt.show()
 
 # Push to github repository 
  In terminal comment git add.
