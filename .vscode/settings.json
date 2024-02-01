@@ -1,0 +1,13 @@
+{
+    "notebook.cellFocusIndicator": "border",
+    "notebook.output.fontSize": 14,
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 16,
+    "editor.renderWhitespace": "none",
+    "editor.accessibilityPageSize": 500,
+    "editor.fontSize": 20,
+    "editor.codeLensFontSize": 20,
+    "editor.formatOnPaste": false,
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "workbench.commandPalette.preserveInput": true
+}
